@@ -38,8 +38,13 @@
         width: 75%;
         align-items: center;
         text-align: center;
-        background-color: rgb(172, 172, 172);
-
-
+  
+        img {
+            width: 300px;       
+            height: 300px;      
+            border-radius: 50%; 
+            background-size: contain; 
+            
+        }
     }
 }

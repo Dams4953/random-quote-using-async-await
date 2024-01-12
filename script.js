@@ -16,12 +16,15 @@ document.getElementById('bouton').addEventListener('click', async function () {
         div.innerHTML = '';
 
         let p1 = document.createElement('p');
+        p1.className = 'p1';
+
         let p2 = document.createElement('p');
+        p2.className = 'p2';
+
         let p3 = document.createElement('p');
+        p3.className = 'p3';
+
         let img = document.createElement('img');
-
-
-        
 
         p1.textContent = `${data.quote ?? 'citation inconnu'}`;
         p2.textContent = `${data.author ?? 'auteur inconnu'}`;

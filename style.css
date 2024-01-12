@@ -1,3 +1,7 @@
+Body {
+  background: #3f3f3f;
+}
+
 .bloc {
   display: flex;
   width: 100%;
@@ -33,10 +37,22 @@
   width: 75%;
   align-items: center;
   text-align: center;
+  color: white;
+  font-family: EB Garamond;
+}
+.bloc .bloc_background .p1 {
+  font-size: 25px;
+}
+.bloc .bloc_background .p2 {
+  font-size: 50px;
+}
+.bloc .bloc_background .p3 {
+  font-size: 20px;
 }
 .bloc .bloc_background img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
   background-size: contain;
+  border: solid 5px #747474;
 }/*# sourceMappingURL=style.css.map */
